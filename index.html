@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salome Kathondi – Fullstack & Réseau</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <h1 class="logo">SK</h1>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero">
+            <h2>Bonjour, je suis <span>Salome Kathondi</span></h2>
+            <p>Développeuse Fullstack & Ingénieure Réseau</p>
+            <a href="#projects" class="btn">Voir mes projets</a>
+        </div>
+    </header>
+
+    <!-- À PROPOS -->
+    <section id="about">
+        <h2>À propos</h2>
+        <p>
+            Passionnée par le développement web et l’ingénierie réseau, 
+            je conçois des applications modernes, performantes et sécurisées. 
+            Je maîtrise aussi bien le frontend que le backend, ainsi que l’architecture et l’administration réseau.
+        </p>
+    </section>
+
+    <!-- COMPÉTENCES -->
+    <section id="skills">
+        <h2>Compétences</h2>
+
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Frontend</h3>
+                <p>HTML • CSS • JavaScript • React • Vue</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Backend</h3>
+                <p>Node.js • PHP • Python • API REST • MySQL • MongoDB</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Réseau</h3>
+                <p>TCP/IP • Cisco • Firewalls • Routing • Switching • Sécurité réseau</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>DevOps</h3>
+                <p>Docker • CI/CD • Linux • Git • Cloud</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJETS -->
+    <section id="projects">
+        <h2>Projets</h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <h3>Application de gestion</h3>
+                <p>Application fullstack permettant de gérer utilisateurs, rôles et statistiques.</p>
+                <a href="#" class="btn small">Voir +</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Monitoring réseau</h3>
+                <p>Dashboard temps réel pour surveiller les performances réseau.</p>
+                <a href="#" class="btn small">Voir +</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Site vitrine moderne</h3>
+                <p>Site responsive, animations modernes, design épuré.</p>
+                <a href="#" class="btn small">Voir +</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Votre nom" required>
+            <input type="email" id="email" placeholder="Votre email" required>
+            <textarea id="message" placeholder="Votre message" required></textarea>
+            <button type="submit" class="btn">Envoyer</button>
+        </form>
+
+        <p class="footer-text">© 2025 Salome Kathondi</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
